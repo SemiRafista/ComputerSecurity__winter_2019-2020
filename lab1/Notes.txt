@@ -1,0 +1,21 @@
+1. TLS - Transport Layer Security
+	* rozwinięcie protokołu SSL
+	* poufność i integralność transmisji danych
+	* uwierzytelnianie serwera
+	* para kluczy - prywatny i publiczny
+
+2. SSH - Secure Shell
+	* standard protokołów
+	* zdalne łączenie terminalowe
+
+3. Powiązanie kluczy z kontem daje możliwość dostępu do konta bez każdorazowego podawania loginu i hasła
+
+4. 2FA - Two Factor Authentication
+	* sms, email, odcisk palca, generator kodów
+	* eliminuje m.in. bruteforce'a, keyloggery
+	* znacznie ogranicza podatność na phishing
+
+5. ASP - Application Specific Passwords
+	* losowo generowane hasła dające dostęp do konta tylko konkretnej aplikacji
+	* stossowane w protokołach, w których 2FA nie ma zastosowania
+	* zagrożenie wynikające z automatycznego logowania i zmiany ustawień konta
